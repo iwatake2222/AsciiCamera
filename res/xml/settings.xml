@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory  android:title="@string/settings">
+
+    <jp.take_iwiw.asciicamera.SeekBarPreference
+        android:key="key_fontSize"
+        android:title="@string/fontSize"
+        android:persistent="true"
+        android:summary="@string/notice_fontSize"
+        android:defaultValue="30"/>
+
+
+    <ListPreference
+        android:defaultValue="@string/convert_type_edge_val"
+        android:key="key_convert"
+        android:title="@string/convert_type"
+        android:entryValues="@array/strList_convert_val"
+        android:entries="@array/strList_convert"
+        />
+
+</PreferenceCategory>
+</PreferenceScreen>

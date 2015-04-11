@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="strList_convert">
+        <item>@string/convert_type_grayscale</item>
+        <item>@string/convert_type_edge</item>
+        <item>@string/convert_type_raw</item>
+    </string-array>
+
+    <string-array name="strList_convert_val">
+        <item>@string/convert_type_grayscale_val</item>
+        <item>@string/convert_type_edge_val</item>
+        <item>@string/convert_type_raw_val</item>
+    </string-array>
+
+</resources>

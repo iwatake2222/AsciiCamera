@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- For App -->
+    <string name="app_name">ASCII Camera</string>
+    <string name="default_char">ABC</string>
+    <string name="folder_save">AsciiCamera</string>
+
+    <!-- For ActionBar -->
+    <string name="camera_sel_face">CAMERA : FACE</string>
+    <string name="camera_sel_back">CAMERA : BACK</string>
+    <string name="retake">RETAKE</string>
+    <string name="save">SAVE</string>
+    <string name="copy">COPY</string>
+    <string name="settings">Settings</string>
+    <string name="info">INFO</string>
+
+    <!-- For Settings -->
+    <string name="fontSize">FONT SIZE</string>
+    <string name="notice_fontSize">It will take a long time if the number is small</string>
+    <string name="convert_type">CONVERSION TYPE</string>
+    <string name="convert_type_grayscale_val">CONVERT_GRAYSCALE</string>
+    <string name="convert_type_edge_val">CONVERT_EDGE</string>
+    <string name="convert_type_raw_val">CONVERT_RAW</string>
+    <string name="convert_type_grayscale">CONVERT</string>
+    <string name="convert_type_edge">CONVERT (EDGE)</string>
+    <string name="convert_type_raw">RAW</string>
+
+    <!-- For Information -->
+    <string name="info_detail">
+        <line>ASCII Camera\n</line>
+        <line>Version 1.0.0</line>
+        </string>
+
+</resources>
+

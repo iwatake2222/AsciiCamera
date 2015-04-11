@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.and_test_camera1.MainActivity" >
+
+    <item
+        android:id="@+id/menu_faceBack"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/camera_sel_face"/>
+
+    <item
+        android:id="@+id/menu_retake"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:visible="false"
+        android:title="@string/retake"/>
+
+    <item
+        android:id="@+id/menu_copy"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:enabled="false"
+        android:title="@string/copy"/>
+
+    <item
+        android:id="@+id/menu_save"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:enabled="false"
+        android:title="@string/save"/>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/settings"/>
+
+
+    <item
+        android:id="@+id/menu_info"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/info"/>
+
+</menu>
